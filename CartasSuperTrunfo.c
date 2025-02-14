@@ -35,13 +35,13 @@ int main() {
     scanf("%d", &populacao);
 
     printf("Area: \n");
-    scanf("%d", &area);
+    scanf("%s", &area);
 
     printf("PIB: \n");
     scanf("%d", &pib);
 
     printf("Pontos turisticos: \n");
-    scanf("%f", &numero);
+    scanf("%s", &numero);
 
 
     return 0;
