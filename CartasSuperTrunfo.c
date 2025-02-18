@@ -19,16 +19,16 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
      char codigo_carta = 'A01, B02, C03, D04';
-     char estado = 'A'; 'H';
-     char nome_cidade;
-     int populacao;
-     float area;
-     float pib;
-     int num_pontos_turisticos;
+     char estado[8] = 'A', 'H';
+     char nome_cidade[4] = "São Paulo";
+     int populacao = 12325000;
+     float area = 1521.11;
+     float pib = 699.28;
+     int num_pontos_turisticos = 50;
 
-    printf("Codigo das cartas: %s\n", codigo_carta);
-    printf("Estado: %s\n", estado);
-    printf("Nome da Cidade: %s\n", nome_cidade);
+    printf("Codigo cartas: %s\n", codigo_carta);
+    printf("Estado:  %s\n", estado);
+    printf("Nome da Cidade:  %s\n", nome_cidade);
     printf("População: %d\n", populacao);
     printf("Área: %d\n", area);
     printf("PIB: %d\n", pib);
