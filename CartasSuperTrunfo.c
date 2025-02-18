@@ -20,13 +20,13 @@ int main() {
 
      char codigo_carta = 'A01, B02, C03, D04';
      char estado = 'A, H';
-     char nome_cidade[10] = "sao paulo";
+     char nome_cidade[10] = "&sao paulo";
      int populacao = 12325000;
      float area = 1521.11;
      float pib = 699.28;
      int num_pontos_turisticos = 50;
 
-    printf("Codigo_cartas:%s\n", codigo_carta);
+    printf("Codigo_cartas: %s\n", codigo_carta);
     printf("Estado:  %d\n", estado);
     printf("Nome da Cidade:  %f\n", nome_cidade);
     printf("População: %d\n", populacao);
