@@ -19,7 +19,7 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
      char codigo_carta = 'A01, B02, C03, D04';
-     char estado[8] = 'A', 'H';
+     char estado[8] = 'A, H';
      char nome_cidade[4] = "São Paulo";
      int populacao = 12325000;
      float area = 1521.11;
