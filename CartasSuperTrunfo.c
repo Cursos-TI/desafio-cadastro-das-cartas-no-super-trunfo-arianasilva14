@@ -20,7 +20,7 @@ int main() {
 
      char codigo_carta = 'A01, B02, C03, D04';
      char estado = 'A, H';
-     char nome_cidade[10] = "&sao paulo";
+     char nome_cidade[10] = "sao paulo";
      int populacao = 12325000;
      float area = 1521.11;
      float pib = 699.28;
