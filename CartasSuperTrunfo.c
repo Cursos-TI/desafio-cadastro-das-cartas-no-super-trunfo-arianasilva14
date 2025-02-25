@@ -26,9 +26,9 @@ int main() {
      float pib = 699.28;
      int num_pontos_turisticos = 50;
 
-    printf("Codigo_cartas: %s\n", codigo_carta);
+    printf("Codigo das cartas: %d\n", codigo_carta);
     printf("Estado:  %d\n", estado);
-    printf("Nome da Cidade:  %f\n", nome_cidade);
+    printf("Nome da Cidade:  %s\n", nome_cidade);
     printf("População: %d\n", populacao);
     printf("Área: %f\n", area);
     printf("PIB: %f\n", pib);
