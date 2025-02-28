@@ -18,23 +18,48 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-     char codigo_carta[4] = 'A01, B02, C03, D04';
-     char estado = 'A, H';
-     char nome_cidade[10] = "sao paulo";
-     int populacao = 12325000;
-     float area = 1521.11;
-     float pib = 699.28;
-     int num_pontos_turisticos = 50;
+    char A, B, C, D, E, F, G, H;
+    char codcarta1, codcarta2[20];
+    char nomeE1, nomeE2[20];
+    int populacao1, populacao2;
+    int numerosP1, numerosp2;
+    float area1, area2;
+    float pib1, pib2;
+     
+    printf("Carta 1:\n");
 
-    printf("Codigo das cartas: %d\n", codigo_carta);
-    printf("Estado:  %d\n", estado);
-    printf("Nome da Cidade:  %s\n", nome_cidade);
-    printf("População: %d\n", populacao);
-    printf("Área: %f\n", area);
-    printf("PIB: %f\n", pib);
-    printf("Número dos pontos turísticos: %d\n", num_pontos_turisticos);
+    printf("Digite a letra do Estado:\n");
+    scanf("%s", &A);
+
+    printf("Digite o código da carta:\n");
+    scanf("%s", &codcarta1);
+
+    printf("Digite o nome da cidade:\n");
+    scanf("%s", &nomeE1);
+
+    printf("Digite a população da cidade:\n");
+    scanf("%d", &populacao1);
+
+    printf("Digite a área da cidade:\n");
+    scanf("%f", &area1);
+
+    printf("Digite o PIB da cidade:\n");
+    scanf("%f", &pib1);
+
+    printf("Digite quantos pontod turísticos possui a cidade:\n");
+    scanf("%d");
     
 
+    printf("Carta 1:\n");
+    printf("Estado: %s\n", A);
+    printf("Cidade: %s\n", nomeE1);
+    printf("Codigo: %s-%s\n", A, codcarta1);
+    printf("População: %d\n", populacao1);
+    printf("Área: %.2fKm²\n", area1);
+    printf("PIB: R$ %.f bilhões\n", pib1);
+    printf("Número de Ponto Turístico: %d\n", numerosP1);
 
     return 0;
+
+
 }
